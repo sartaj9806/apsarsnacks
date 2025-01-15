@@ -88,6 +88,8 @@ img {
     margin: 10px auto 0;
 }
 
+
+
 /* Navbar styling */
 
 header {
@@ -102,6 +104,17 @@ header .navbar {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+}
+
+.navbar .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar .nav-logo .logo-image {
+    width: 50px;
+    border-radius: var(--border-radius-circle);
 }
 
 .navbar .nav-logo .logo-text {
